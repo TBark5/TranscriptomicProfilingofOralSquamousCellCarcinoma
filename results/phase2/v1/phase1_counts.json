@@ -1,0 +1,47 @@
+{
+  "frozen_files": 137,
+  "observed": {
+    "discovery_candidates": 1339,
+    "testable_candidates": 1187,
+    "same_direction_candidates": 964,
+    "primary_replications": 706,
+    "strict_replications": 563,
+    "discovery_significant_pathways": 13,
+    "replicated_pathways": 10
+  },
+  "outcome_categories": {
+    "untestable": 152,
+    "same_direction_significant": 706,
+    "same_direction_nonsignificant": 258,
+    "opposite_direction_significant": 61,
+    "opposite_direction_nonsignificant": 162
+  },
+  "common_tested_genes": 8982,
+  "genome_wide_spearman": 0.5243162997770314,
+  "candidate_spearman": 0.6984993257320934,
+  "bh_checks": {
+    "GSE20116": {
+      "tested": 10506,
+      "max_abs_q_difference": 1.4497951450476165e-15
+    },
+    "GSE184616": {
+      "tested": 17850,
+      "max_abs_q_difference": 4.1275576706523154e-16
+    }
+  },
+  "sources": {
+    "GSE184616_family.soft.gz": "31111ea040a0c3324c73ba4be2438d6c663e05922f204be359f2d768a6eb108c",
+    "GSE184616_unnormalisedGeneCounts.txt.gz": "5d9e406952eb5c64e87774b336d5ed58fffca2fe83ead513e485df4e6c071451"
+  },
+  "sample_accession_overlap": 0,
+  "retained_raw_count_sum_ranges": {
+    "discovery": [
+      7365969,
+      21502237
+    ],
+    "validation": [
+      25071397,
+      49122031
+    ]
+  }
+}
