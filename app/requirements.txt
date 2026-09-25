@@ -1,0 +1,10 @@
+# Dashboard-only dependencies, used by Streamlit Community Cloud (it reads the
+# requirements file next to the entrypoint first). The full analysis pipeline
+# uses the root requirements.txt instead.
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+statsmodels==0.14.4
+plotly==6.1.2
+streamlit==1.45.1
+requests==2.32.4

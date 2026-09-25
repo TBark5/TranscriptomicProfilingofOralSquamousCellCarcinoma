@@ -81,6 +81,17 @@ Open the local URL printed by Streamlit (normally `http://localhost:8501`). The 
 
 Dashboard sliders **filter gene results only**. The pathway panel displays the thresholds used for the saved enrichment; rerun the pipeline to change those analyses. Zero and missing adjusted p-values are handled without filling them with invented values.
 
+## Deploy to Streamlit Community Cloud
+
+The repository is ready to host as-is; the committed result bundles are what the app displays, so no pipeline run happens in the cloud.
+
+1. Push this repository to GitHub, then open [share.streamlit.io](https://share.streamlit.io) and choose **Create app → Deploy a public app from GitHub**.
+2. Select the repository and branch, and set **Main file path** to `app/streamlit_app.py`.
+3. Under **Advanced settings**, choose **Python 3.11**. No secrets are needed.
+4. Click **Deploy**.
+
+Community Cloud installs `app/requirements.txt` (it prefers the file beside the entrypoint), a slim dashboard-only list, instead of the full pipeline stack in the root `requirements.txt`. The theme comes from `.streamlit/config.toml`. The app verifies output checksums on load, which rely on the LF line endings enforced by `.gitattributes`; do not re-save result files with CRLF line endings.
+
 ## Methods and interpretation
 
 1. Parse sample identities from GEO SOFT; require one normal and one tumor per patient, unique samples/features, numeric finite nonnegative integer counts, and exact sample alignment.
