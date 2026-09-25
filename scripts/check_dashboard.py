@@ -16,13 +16,13 @@ app.checkbox[0].set_value(True).run()
 assert not app.exception
 app.selectbox(key="gene-selector").set_value("MMP1").run()
 assert not app.exception
-app.radio[0].set_value("Overrepresentation").run()
+app.radio(key="method").set_value("Overrepresentation").run()
 assert not app.exception
 app.text_input[1].set_value("Myogenesis").run()
 assert not app.exception
 print("Dashboard initial render, threshold sliders, searches, all-genes table, gene selection and ORA explorer passed")
 
-app.selectbox(key="dataset").set_value("GSE184616").run()
+app.radio(key="dataset").set_value("GSE184616").run()
 assert not app.exception, [e.message for e in app.exception]
 assert "30 / 15" in [m.value for m in app.metric]
 print("Validation cohort render and sample/pair metrics passed")
