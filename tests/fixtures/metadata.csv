@@ -1,0 +1,7 @@
+sample_accession,patient_id,condition
+SYN_P1_N,SYN_P1,normal
+SYN_P1_T,SYN_P1,tumor
+SYN_P2_N,SYN_P2,normal
+SYN_P2_T,SYN_P2,tumor
+SYN_P3_N,SYN_P3,normal
+SYN_P3_T,SYN_P3,tumor

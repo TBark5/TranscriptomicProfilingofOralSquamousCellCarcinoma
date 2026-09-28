@@ -1,0 +1,16 @@
+{
+  "design": "~patient_id + condition",
+  "contrast": "tumor / normal",
+  "design_rank": 16,
+  "residual_df": 14,
+  "failed_convergence": 71,
+  "missing_pvalue": 71,
+  "warnings": [
+    "Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '[ True  True  True ...  True  True  True]' has dtype incompatible with float64, please explicitly cast to a compatible dtype first."
+  ],
+  "normalization": "DESeq2 median-of-ratios size factors",
+  "cooks_filter": true,
+  "outlier_replacement": false,
+  "independent_filter": false,
+  "bh_family": "all finite, convergence-qualified, Cook-filtered p-values"
+}

@@ -1,0 +1,31 @@
+sample_accession,source_column,patient_id,condition,tissue,age,sex,smoking,diagnosis,hpv_status,platform,genome,annotation
+GSM5593747,OSCC_1-N,OSCC_1,normal,Tongue,50,Male,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593748,OSCC_1-P,OSCC_1,tumor,Tongue,50,Male,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593749,OSCC_2-N,OSCC_2,normal,Tongue,33,Male,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593750,OSCC_2-P,OSCC_2,tumor,Tongue,33,Male,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593751,OSCC_3-N,OSCC_3,normal,Gingivolingual sulcus,45,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593752,OSCC_3-P,OSCC_3,tumor,Gingivolingual sulcus,45,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593753,OSCC_4-N,OSCC_4,normal,Floor of mouth,48,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593754,OSCC_4-P,OSCC_4,tumor,Floor of mouth,48,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593755,OSCC_5-N,OSCC_5,normal,Tongue,22,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593756,OSCC_5-P,OSCC_5,tumor,Tongue,22,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593757,OSCC_6-N,OSCC_6,normal,Tongue,48,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593758,OSCC_6-P,OSCC_6,tumor,Tongue,48,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593759,OSCC_7-N,OSCC_7,normal,Palatal mucosa to maxilla,49,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593760,OSCC_7-P,OSCC_7,tumor,Palatal mucosa to maxilla,49,Male,Yes,Oral Squamous Cell Carcinoma,not stated in sample,GPL24676,hg38,GENCODE 31
+GSM5593761,OSCC_8-N,OSCC_8,normal,Tongue,37,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593762,OSCC_8-P,OSCC_8,tumor,Tongue,37,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593763,OSCC_9-N,OSCC_9,normal,Tongue,21,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593764,OSCC_9-P,OSCC_9,tumor,Tongue,21,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593765,OSCC_10-N,OSCC_10,normal,Tongue,46,Male,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593766,OSCC_10-P,OSCC_10,tumor,Tongue,46,Male,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593767,OSCC_11-N,OSCC_11,normal,Floor of mouth,50,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593768,OSCC_11-P,OSCC_11,tumor,Floor of mouth,50,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593769,OSCC_12-N,OSCC_12,normal,Tongue,34,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593770,OSCC_12-P,OSCC_12,tumor,Tongue,34,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593771,OSCC_13-N,OSCC_13,normal,Tongue,37,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593772,OSCC_13-P,OSCC_13,tumor,Tongue,37,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593773,OSCC_14-N,OSCC_14,normal,Tongue,36,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593774,OSCC_14-P,OSCC_14,tumor,Tongue,36,Female,No,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593775,OSCC_16-N,OSCC_16,normal,Tongue,42,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31
+GSM5593776,OSCC_16-P,OSCC_16,tumor,Tongue,42,Male,Yes,HPV-negative Oral Squamous Cell Carcinoma,negative,GPL24676,hg38,GENCODE 31

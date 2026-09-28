@@ -1,0 +1,19 @@
+[
+  {
+    "library": "MSigDB_Hallmark_2020",
+    "source": {
+      "url": "https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=MSigDB_Hallmark_2020",
+      "sha256": "4275592957a1587652092bb398cf77216fde5b8daa2aedaa0e016f7d10bbdb81",
+      "bytes": 44235
+    },
+    "status": "complete",
+    "tested_background": 10506,
+    "symbols_in_library": 2932,
+    "eligible_sets": 49,
+    "ranking_ties": 0,
+    "ora": {
+      "up": "tested 49 terms with 363 query genes",
+      "down": "tested 49 terms with 976 query genes"
+    }
+  }
+]

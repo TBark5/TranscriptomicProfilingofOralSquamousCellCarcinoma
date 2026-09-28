@@ -1,0 +1,118 @@
+{
+  "status": "complete",
+  "dataset": "GSE20116",
+  "data_kind": "real",
+  "started_utc": "2026-09-23T20:49:53.902418+00:00",
+  "config": {
+    "alpha": 0.05,
+    "lfc": 1.0,
+    "min_count": 10,
+    "min_samples": 3,
+    "seed": 42,
+    "permutations": 1000,
+    "libraries": [
+      "MSigDB_Hallmark_2020"
+    ]
+  },
+  "sources": {
+    "TableS1.xls": {
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0009317.s009&type=supplementary",
+      "sha256": "5aa416fc86ebf716252f7df55e34c8d33dbe035b92889cfdfd879332eb289ffd",
+      "bytes": 7655936
+    },
+    "GSE20116_family.soft.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE20nnn/GSE20116/soft/GSE20116_family.soft.gz",
+      "sha256": "7bfb1cdc0299e2529eb2a79ab22d519201aa64d17fb5d1844ff039fabf057af0",
+      "bytes": 1775
+    },
+    "verified_utc": "2026-09-23T20:49:53.929243+00:00"
+  },
+  "source_transcripts": 15668,
+  "representatives": 10541,
+  "samples": 6,
+  "pairs": 3,
+  "diagnostics": {
+    "design": "~patient_id + condition",
+    "contrast": "tumor / normal",
+    "design_rank": 4,
+    "residual_df": 2,
+    "failed_convergence": 35,
+    "missing_pvalue": 35,
+    "warnings": [
+      "As the residual degrees of freedom is less than 3, the distribution of log dispersions is especially asymmetric and likely to be poorly estimated by the MAD.",
+      "Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '[ True  True  True ...  True  True  True]' has dtype incompatible with float64, please explicitly cast to a compatible dtype first."
+    ],
+    "normalization": "DESeq2 median-of-ratios size factors",
+    "cooks_filter": true,
+    "outlier_replacement": false,
+    "independent_filter": false,
+    "bh_family": "all finite, convergence-qualified, Cook-filtered p-values"
+  },
+  "enrichment": [
+    {
+      "library": "MSigDB_Hallmark_2020",
+      "source": {
+        "url": "https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=MSigDB_Hallmark_2020",
+        "sha256": "4275592957a1587652092bb398cf77216fde5b8daa2aedaa0e016f7d10bbdb81",
+        "bytes": 44235
+      },
+      "status": "complete",
+      "tested_background": 10506,
+      "symbols_in_library": 2932,
+      "eligible_sets": 49,
+      "ranking_ties": 0,
+      "ora": {
+        "up": "tested 49 terms with 363 query genes",
+        "down": "tested 49 terms with 976 query genes"
+      }
+    }
+  ],
+  "qc": {
+    "library_min": 7365969,
+    "library_max": 21502237,
+    "correlation_min": 0.6130291336018127,
+    "correlation_max": 0.896889336194176,
+    "pca_variance": [
+      0.5993163695798145,
+      0.16668142757817164
+    ]
+  },
+  "summary": {
+    "genes": 10541,
+    "tested": 10506,
+    "up": 363,
+    "down": 976
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "statsmodels": "0.14.4",
+    "pydeseq2": "0.5.2",
+    "gseapy": "1.1.9",
+    "matplotlib": "3.10.3",
+    "streamlit": "1.45.1"
+  },
+  "python": "3.11.13",
+  "output_sha256": {
+    "results/tables/convergence.csv": "48e045f7986bb5959b7083c8f2d90c06fb7293c5ff0e821c1a59ecca6c0264b8",
+    "results/tables/counts.csv": "d280f2d2bce7ab1d69f60f6e7cdff9c750d0a9faccfe40fd3c585db3b6647ebd",
+    "results/tables/differential_expression.csv": "f9cd65f76ee0cbdb9f1277fc8c13b49c8a1797a3ec9da94b62a3b9e6a8be05af",
+    "results/tables/downregulated.csv": "da6d40c86687bafcb3ecec4ef2d13eeff1f53755433ac1009189c3ab40d3f54c",
+    "results/tables/filter_audit.csv": "a64a2255b1edca6469cf6703ab203f806f747c2d345df589e4f8675eb9447488",
+    "results/tables/gsea.csv": "2b24ebe4c041cc515655abf6cc96526e1fa0835bd024a5f8c7a6fc7b9fda45e7",
+    "results/tables/library_sizes.csv": "f2be5ac4881adac556f7e58a841a7468ff122ba343624f10ec85e53043e350ae",
+    "results/tables/log_expression.csv": "3a4bb0ab5a30f057031714912e721dfa0c503c281bfdd479d8effa43afc94b87",
+    "results/tables/mapping_MSigDB_Hallmark_2020.csv": "fae5d36486fe959691bd9fca0fbd16fd957f1fd4908a3c2114ea3c4503ce4172",
+    "results/tables/metadata.csv": "caedb05d59310994e5b08ce2f634aab1af9b23695eb2468dae1ae35f14a1da9c",
+    "results/tables/normalized_counts.csv": "2a22bf24a0d0899596c2ce9cac5f25a480a6d2d0c909c887541e1de8ac143e31",
+    "results/tables/ora.csv": "eb7a59dbcdde51e654b4acc6ffd7013a927fa6b1f54ad08f9f21e9fd5056ac35",
+    "results/tables/pca.csv": "90d317143bf08fb5ed02aa2f5cdbdc42918851a2fe580d7a7b1a7991e168c455",
+    "results/tables/ranking.csv": "f9053088df82aacc0945e9dece481178085977195903742c9d94737572e0e6f7",
+    "results/tables/sample_correlations.csv": "d5c955063dab3b9941a28fa9ad8a2e6d7a7f9b2dd5925a18287a09122de00395",
+    "results/tables/size_factors.csv": "3113317a3c2f226800b23de9b3d607ed91d1c3c83aefe438eaa8b0091c77481b",
+    "results/tables/transcript_mapping.csv": "1fe89c4aab6a7c4655c11762d512e33827f0bf0247284ff38c3945aee69d3a1e",
+    "results/tables/upregulated.csv": "99323b1ca00f192a7a0ff1e02d42f62f2854661f48c02fff90bfa0857edebcc2"
+  },
+  "completed_utc": "2026-09-23T20:51:22.222428+00:00"
+}

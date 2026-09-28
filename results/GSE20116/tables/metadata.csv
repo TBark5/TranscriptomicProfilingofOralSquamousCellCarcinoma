@@ -1,0 +1,7 @@
+sample_accession,patient_id,condition,source_column,tissue,platform,instrument,genome,age,sex,stage,hpv_status,clinical_note,sample_url
+GSM515513,8,normal,8N,Oral cavity normal tissue,GPL9442,AB SOLiD System 3.0,hg18,,,,,"Age, sex, stage and HPV not supplied in GEO SOFT; no imputation",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM515513
+GSM515514,8,tumor,8T,Oral squamous cell carcinoma,GPL9442,AB SOLiD System 3.0,hg18,,,,,"Age, sex, stage and HPV not supplied in GEO SOFT; no imputation",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM515514
+GSM515515,33,normal,33N,Oral cavity normal tissue,GPL9442,AB SOLiD System 3.0,hg18,,,,,"Age, sex, stage and HPV not supplied in GEO SOFT; no imputation",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM515515
+GSM515516,33,tumor,33T,Oral squamous cell carcinoma,GPL9442,AB SOLiD System 3.0,hg18,,,,,"Age, sex, stage and HPV not supplied in GEO SOFT; no imputation",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM515516
+GSM515517,51,normal,51N,Oral cavity normal tissue,GPL9442,AB SOLiD System 3.0,hg18,,,,,"Age, sex, stage and HPV not supplied in GEO SOFT; no imputation",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM515517
+GSM515518,51,tumor,51T,Oral squamous cell carcinoma,GPL9442,AB SOLiD System 3.0,hg18,,,,,"Age, sex, stage and HPV not supplied in GEO SOFT; no imputation",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM515518
